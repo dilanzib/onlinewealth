@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;700;900&display=swap" rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="../style/style.css"> <!-- main page styles (black background etc.) -->
+    <link rel="stylesheet" href="../style/popup.css"> <!-- popup styles (white background etc.) -->
+
+    <!-- JS -->
+    <script src="../scripts/popup.js" defer></script> 
+
+    <title>Free Video Case Study</title>
+</head>
+<body>
+
+<!-- ====== HEADLINE ====== -->
+<div id="step1-headline">
+  <span class="step-text">FREE VIDEO CASE STUDY WILL TEACH YOU:</span>
+</div>
+
+<!-- ====== MAIN HEADING ====== -->
+<div class="custom-calendly-container">
+  <h1 class="calendly-heading">
+    How I’m making <span id="color">$100-300</span> per day
+    with only 1-3 hours a day with
+    <span id="color">Digital Products</span>...
+  </h1>
+</div>
+
+<p id="underline-text">
+  WITHOUT the need to show your face, do any selling or handle complicated tech..
+</p>
+
+<!-- ====== GET STARTED BUTTON ====== -->
+<div id="button-section">
+  <a href="#" class="custom-button" id="openModal">
+    <span id="button1">GET STARTED ❯❯</span>
+  </a>
+</div>
+
+<p id="underline-text">Enter Your Info Above:<br></p>
+<p id="underline-text">
+  Get Access to The Free Guide <br>
+  That Walks You Through How It Works.
+</p>
+
+<!-- ====== POPUP MODAL ====== -->
+<div class="modal-overlay" id="modal" style="display:none;">
+  <div class="modal">
+    <div class="modal-close" id="closeModal">✕</div>
+
+    <div class="modal-progress">
+      <div class="modal-progress-bar" id="progressBar">
+        <span id="progressText"></span>
+      </div>
+    </div>
+
+    <h2>Get Started</h2>
+
+    <input type="text" id="name" placeholder="Your Name" required>
+    <input type="email" id="email" placeholder="Your Email" required>
+    <input type="tel" id="phone" placeholder="Phone Number">
+    <button id="submitForm">GET STARTED ❯❯</button>
+
+    <small>
+      Your information is secure. We will NEVER share your details with anyone.
+    </small>
+  </div>
+</div>
+
+</body>
+</html>
